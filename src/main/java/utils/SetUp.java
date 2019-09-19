@@ -18,7 +18,7 @@ public class SetUp {
 	public WebDriver SetUp(WebDriver driver) {	
 		
 		this.driver = driver;
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\saman\\java_cucumber\\CucumberBDD\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
 		//driver.get("https://www.phptravels.net");
