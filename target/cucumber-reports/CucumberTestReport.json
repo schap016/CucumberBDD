@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9697389500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PHPTravelsHomePageTestsStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Navigate to PHPTravels",
+        "description": "",
+        "id": "php-travels-home-page-navigation;navigate-to-phptravels",
+        "after": [
+          {
+            "result": {
+              "duration": 62720000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PHPTravelsHomePageTestsStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6972084900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I opened \"https://phptravels.net\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://phptravels.net",
+                  "offset": 10
+                }
+              ],
+              "location": "PHPTravelsHomePageTestsStepDefinitions.i_opened_home_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8187900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "should be redirected to \"PHPTRAVELS | Travel Technology Partner\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PHPTRAVELS | Travel Technology Partner",
+                  "offset": 25
+                }
+              ],
+              "location": "PHPTravelsHomePageTestsStepDefinitions.should_be_redirected_to_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "PHP Travels Home Page Navigation",
+    "description": "",
+    "id": "php-travels-home-page-navigation",
+    "keyword": "Feature",
+    "uri": "PHPTravelsTests.feature"
+  }
+]
